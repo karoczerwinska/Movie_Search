@@ -1,0 +1,83 @@
+.card-container {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+}
+
+.poster-container {
+
+  .poster {
+    width: 500px;
+    border-radius: 0 0 3px 3px;
+  }
+}
+
+.data-container {
+  width: 500px;
+  padding: 50px;
+  color: $lightGrey;
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $lato;
+    font-size: 34px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  p {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: justify;
+    padding: 10px;
+
+  }
+
+  .details {
+    margin: 20px 0 20px;
+    font-family: $lato;
+
+
+    .genre-list {
+      display: block;
+      color: $limeGreen;
+      font-size: 1.4em;
+    }
+
+    .production-list {
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .release-details {
+
+      font-size: 18px;
+      padding: 10px;
+
+      div {
+        &:nth-child(n+3) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  .data {
+    display: block;
+    color: $limeGreen;
+    font-size: 1.6em;
+    line-height: 1.1em;
+  }
+}
+
+.tagline {
+  display: block;
+  padding-bottom: 0.25em;
+  color: $limeGreen;
+  font-size: 30px;
+  font-family: $lato;
+}

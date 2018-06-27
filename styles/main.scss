@@ -1,0 +1,17 @@
+@import 'globals/reset';
+
+//helpers
+
+@import "helpers/_variables.scss";
+@import "helpers/_animations.scss";
+
+//layout
+
+@import "layout/_body.scss";
+@import "layout/_card.scss";
+@import "layout/_logo.scss";
+@import "layout/_search.scss";
+
+
+
+@import "../bootstrap/bower_components/bootstrap/scss/bootstrap.scss";

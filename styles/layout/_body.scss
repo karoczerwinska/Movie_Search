@@ -1,0 +1,21 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-repeat: no-repeat;
+  font-family: $lato;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#app {
+  width: 1000px;
+  animation: fadein ease-out 1.5s;
+  position: absolute;
+  right: -500px;
+
+}
