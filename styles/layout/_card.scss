@@ -8,6 +8,7 @@
 
   .poster {
     width: 500px;
+    height: 100%;
     border-radius: 0 0 3px 3px;
   }
 }
@@ -76,8 +77,8 @@
 
 .tagline {
   display: block;
-  padding-bottom: 0.25em;
+  padding: 10px;
   color: $limeGreen;
-  font-size: 30px;
+  font-size: 24px;
   font-family: $lato;
 }
