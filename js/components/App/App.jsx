@@ -2,7 +2,6 @@ import React from 'react';
 
 import 'whatwg-fetch'
 
-import './App.scss';
 import Card from '../Card/Card.jsx';
 import Search from '../Search/Search.jsx';
 

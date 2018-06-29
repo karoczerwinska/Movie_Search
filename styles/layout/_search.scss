@@ -4,10 +4,6 @@
 
   }
 
-.searchbox {
-  margin: 20px;
-}
-
 .form-control {
   animation: fadein ease-in 0.5s;
   margin: 20px;
@@ -64,3 +60,18 @@
   color: #000;
   opacity: 0.8;
 }
+
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
+

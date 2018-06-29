@@ -2,19 +2,17 @@
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.85);
   display: flex;
+  justify-content: center;
 }
 
 .poster-container {
 
   .poster {
-    width: 500px;
-    height: 100%;
     border-radius: 0 0 3px 3px;
   }
 }
 
 .data-container {
-  width: 500px;
   padding: 50px;
   color: $lightGrey;
 
@@ -28,31 +26,17 @@
   }
 
   p {
-
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: lighter;
     text-align: justify;
     padding: 10px;
-
   }
 
   .details {
     margin: 20px 0 20px;
     font-family: $lato;
-
-
-    .genre-list {
-      display: block;
-      color: $limeGreen;
-      font-size: 1.4em;
-    }
-
-    .production-list {
-      display: block;
-      margin-bottom: 20px;
-    }
 
     .release-details {
 
