@@ -12,5 +12,5 @@ Movie Search is a React app loading data via The Movie Database API. The user en
 
 ## Preview:
 
-gif.gif
+![DEMO Movie Search] (gif.gif)
 
