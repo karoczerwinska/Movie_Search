@@ -4,7 +4,8 @@ Movie Search is a React app loading data via The Movie Database API. The user en
 
 ## Technologies used in this project:
 
-- React
+- ReactJS
+- JavaScript (ES6 standard)
 - SASS
 - Bootstrap
 - Webpack
