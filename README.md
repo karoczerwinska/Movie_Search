@@ -9,7 +9,3 @@ Movie Search is a React app loading data via The Movie Database API. The user en
 - SASS
 - Bootstrap
 - Webpack
-
-## Preview:
-
-![Demo Movie Search]<img src="/art/gif.gif?raw=true" height="600" width="800px">
