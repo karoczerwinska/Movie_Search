@@ -6,7 +6,7 @@ Movie Search is a React app loading data via The Movie Database API. The user en
 
 [Movie Search - Live DEMO](https://karoczerwinska.github.io/Movie_Search/)
 
-## Technologies used in this project:
+## Technologies used in this project
 
 - ReactJS
 - JavaScript (ES6 standard)
